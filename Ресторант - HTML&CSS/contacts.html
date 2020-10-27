@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="contactstyle.css">
+	<title></title>
+</head>
+<body>
+	<header>
+		<img src="snimki/loogo.jpg">
+		<nav>
+			<ul>
+				<li><a href="index.html">Начало</a></li>
+				<li><a href="menu.html">Меню</a></li>
+				<li><a href="contacts.html">Контакти</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="section-image">
+		<img src="snimki/contacts.png">
+	</section>
+	<section id="articles">
+		<article>
+			<h1>Визия</h1>
+			<img src="snimki/viziq.jpg">
+			<p>Нашето разбиране, че всичко може да се подобри, ни мотивира ежедневно да търсим нови предизвикателства и да усъвършенстваме вкусовите емоции, които ти предлагаме. Oбещаваме непрестанно да търсим възможности за подобряване на ястията ни и да внасяме в менюто си нови и интересни съставки, които да разнообразят вкусовите ти усещания. Надяваме се заедно да откриваме нови преживявания. </p>
+		</article>
+		<article>
+			<h1>Интериор</h1>
+			<img src="snimki/interior.jpg">
+			<p>При създаването на ресторанта се колебаехме между грубия индустриален стил, който фокусира вниманието върху самата кухня и смесица между български и европейски старинен стил. В крайна сметка решихме, че най-добрият вариант би бил да предложим на теб да избереш кой от двата ти харесва най-много. В резултат на това, ресторантът е разделен на две основни зали: груба индустриална и уютна старинна.</p>
+		</article>
+	</section>
+	<section id="contacts">
+		<article id="restaurant">
+			<div id="first">
+			<h1>Как можеш да стигнеш до ресторанта</h1>
+			<br>
+			<p>Намираме се на <b>ул. „Отец Паисий” 12 (известна като “Златарска”)</b>, паралелнa на главната улица на Пловдив. Близо до нас са древните разкопки на Античния стадион, площад „Джумая”, както и пътят за Стария град. На няколко крачки от нас е паркът на Джумаята с цитати от именити български писатели върху паветата. В близост е спирка на градския транспорт за линиите: 1, 4, 7, 9, 11, 13, 26, 27, 44, 93 и 99. Цената за такси до ресторанта от която и да е точка на града е между 2 и 6 лева. <br><br>Телефон за връзка: +359 999 000 996</p>
+			</div>
+			<div id="second">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2958.153778597519!2d24.746620315449476!3d42.14699597920171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14acd1bca7217f4b%3A0x5e12c734cbe65975!2sSmokini!5e0!3m2!1sbg!2sbg!4v1560176486714!5m2!1sbg!2sbg" width="500" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</article>
+		<article id="forma">
+			<h1>Ще се радваме да ни споделите какво мислите</h1>
+			<form action="basic.php" method="post">
+			<label for="fname">Вашето име: </label>
+			<input type="text" name="fname" id="fname" placeholder="име..." required>
+			
+			<label for="email">E-mail: </label>
+			<input type="text" name="email" id="email" placeholder="email...">
+			<br>
+			<label for="note">Вашият коментар или препоръка: </label>
+			<br>
+			<textarea name="notes" cols="60" rows="10" id="note" placeholder="въведете вашето запитване тук..."></textarea>
+			<br>
+			<input type="submit" value="Изпрати" id="submit" onclick="return Validate();">
+			</form>
+		</article>
+	</section>
+	<footer>
+		<div>
+			<h3>АДРЕС & ТЕЛЕФОН</h3>
+			<p>Смокини, ул. Отец Паисий 12 <br> Пловдив, 4000 <br>
+	тел: +359 999 000 996</p>
+		</div>
+		<div>
+			<p><b>Smokini Copyright © 2016.</b><br> Всички права запазени. <br>Made by: Мария Станчева</p>
+		</div>
+		<div>
+			<h3>СОЦИАЛНИ МЕДИИ</h3>
+			<a href="https://www.facebook.com/"><img src="snimki/face.png" width="35"></a>
+			<a href="https://www.instagram.com/?hl=bg"><img src="snimki/insta.png" width="35"></a>
+			<a href="https://www.tripadvisor.com/Restaurant_Review-g295391-d11875549-Reviews-Smokini-Plovdiv_Plovdiv_Province.html"><img src="snimki/trip.png" width="32"></a>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	color: inherit;
+	text-decoration: none;
+}
+
+header nav ul{
+	position: fixed;
+  	top: 0;
+  	width: 99.9%;
+  	z-index: 3;
+  	text-align: center;
+  	background-image: url(snimki/dark-gray.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+}
+header img{
+	position: fixed;
+  	top: 0;
+  	width: 16.5%;
+  	z-index: 5;
+}
+header nav ul li{
+	display: inline-block;
+	font-size: 20pt;
+	padding: 2%;
+}
+
+body{
+	background-image: url(snimki/dark-gray.jpg);
+	background-repeat: repeat;
+	background-position: center;
+	background-size:cover;
+	width: 100%;
+	font-family: Comfortaa;
+	color: white;
+}
+#zaglavie{
+	text-align: center;
+	font-size: 22pt;
+	background-color: black;
+	padding: 1%;
+}
+#section-image img{
+	width: 99.9%;
+	margin-top: 6%;
+}
+#courses{
+	width: 100%;
+	text-align: center;
+}
+
+#courses #main{
+	width: 25%;
+	display: inline-block;
+	border:1px solid white;
+	padding: 0 0 1% 0;
+	margin: 0.5%;
+}
+#courses #main img{
+	width: 100%;
+}
+
+#courses #main:hover{
+	background-color: rgba(0,0,0,0.7);
+}
+footer{
+	margin-top: 2%;
+	width: 100%;
+	background-color: white;
+	color: rgb(35,35,33);
+	padding: 1% 0;
+}
+footer div{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+footer div a img:hover{
+	width: 10%;
+}
